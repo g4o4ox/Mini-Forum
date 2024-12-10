@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Forum</title>
+</head>
+<body>
+    <header class="top-header">
+        <img class="img" src="images/message_chat_bubble_icon_264216.png" alt="logo">
+        <h1><strong>Forum</strong></h1>
+    </header>
+    <main class="forum-content">
+        <section class="faixa-categoria">
+            <nav class="faixa-categoria">
+                <a class="btn-categoria" href="">Categoria 1</a>
+                <a class="btn-categoria" href="">Categoria 2</a>
+                <a class="btn-categoria" href="">Categoria 3</a>
+                <a class="btn-categoria" href="">Categoria 4</a>
+            </nav>
+        </section>
+        
+        <section class="writer-section">
+            <h1>Escreva algo</h1>
+            <input type="text" id="title" class="input-text" placeholder="Título da postagem">
+            <textarea id="content" class="input-text" placeholder="Conteúdo da postagem"></textarea>
+            <button class="public-button" onclick="addPost()" id="public-button">Publicar</button>
+
+        </section>
+        <section class="post-area">
+            <div id="post-content" class="post-content"></div>
+        </section>
+        
+
+    </main>
+</body>
+<script src="main.js"></script>
+</html>
